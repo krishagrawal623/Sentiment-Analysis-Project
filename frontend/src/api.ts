@@ -5,7 +5,7 @@ export interface SentimentResponse {
 
 export async function analyzeText(text: string): Promise<SentimentResponse> {
   const res = await fetch(
-    "https://sentiment-analysis-project-sy90.onrender.com/predict",
+    "https://sentiment-analysis-project-gazk.onrender.com",
     {
       method: "POST",
       headers: {
